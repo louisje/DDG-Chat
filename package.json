@@ -2,13 +2,9 @@
   "name": "ddg-chat",
   "version": "1.0.0",
   "type": "module",
-  "private": true,
+  "private": false,
+  "bin": "api/index.js",
   "scripts": {
-    "deploy": "vercel",
-    "deploy:cf": "wrangler deploy",
-    "publish": "vercel --prod",
-    "publish:cf": "wrangler publish",
-    "dev": "wrangler dev",
     "start": "node api/index.js"
   },
   "author": "leafmoes",

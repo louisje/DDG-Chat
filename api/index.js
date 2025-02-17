@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { createServerAdapter } from '@whatwg-node/server'
 import { AutoRouter, json, error, cors } from 'itty-router'
 import { createServer } from 'http'

@@ -161,6 +161,7 @@ dist/README.md
 
 # yarn v2
 
+yarn.lock
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
